@@ -9,7 +9,7 @@ import { Counter } from '../component/counter/counter';
   styleUrl: './home.scss',
 })
 export class Home {
-  homeMessage = signal('Hi there');
+  homeMessage = signal('Greetings');
 
   keyUpHandler(event: KeyboardEvent) {
     console.log('User pressed: ' + event.key);
